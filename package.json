@@ -1,0 +1,39 @@
+{
+  "name": "supa-flow-fetch",
+  "version": "1.0.1",
+  "description": "Enhanced streaming data fetching tool with SSE support",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "sse",
+    "event-source",
+    "stream",
+    "fetch",
+    "real-time"
+  ],
+  "author": "JustinGastby",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinGastby/supa-flow-fetch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JustinGastby/supa-flow-fetch/issues"
+  },
+  "homepage": "https://github.com/JustinGastby/supa-flow-fetch#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "directories": {
+    "example": "examples"
+  }
+}
